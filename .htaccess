@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^home$ index.php [L]
+RewriteRule ^about-us$ about-us.php [L]
+RewriteRule ^contact-us$ contact-us.php [L]
+RewriteRule ^services$ what-we-offer.php [L]
+RewriteRule ^what-we-do$ what-we.php [L]
+RewriteRule ^listings$ listing.php [L]
